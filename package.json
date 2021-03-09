@@ -1,0 +1,24 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "description": "",
+  "author": {
+    "name": "Jarrod Connolly",
+    "email": "jarrod@nestedquotes.ca"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --format table --ignore-path .gitignore --config .eslintrc.js .",
+    "test": "jest"
+  },
+  "keywords": [],
+  "files": [
+    "index.js",
+    "/lib"
+  ],
+  "devDependencies": {
+    "eslint": "7.21.0",
+    "jest": "26.6.3"
+  }
+}
